@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FBDEMO</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+ <string name="login_using_activity">Login using Activity</string>
+    <string name="login_using_custom_fragment">Login using Custom Fragment</string>
+    <string name="login_using_usersettingsfragment">Login using UserSettingsFragment</string>
+    <string name="hello">Hello World, SessionLoginSampleActivity!</string>
+    <string name="login">Login</string>
+    <string name="instructions">Login to create a link to fetch account data</string>
+    <string name="logout">Log out</string>
+    <string name="applicationId">380615018626574</string>
+</resources>
