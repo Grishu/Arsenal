@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:title="@string/menu_previous_page"
+		android:showAsAction="ifRoom|withText" android:icon="@drawable/ic_menu_back"
+		android:id="@+id/menu_item_previous_page" />
+	<item android:title="@string/menu_next_page" android:showAsAction="ifRoom|withText"
+		android:icon="@drawable/ic_menu_forward" android:id="@+id/menu_item_next_page"></item>
+</menu>

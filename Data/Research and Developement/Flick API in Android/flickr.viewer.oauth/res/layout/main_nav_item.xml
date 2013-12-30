@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="?android:attr/activatedBackgroundIndicator"
+	android:layout_width="fill_parent" android:layout_height="?android:attr/listPreferredItemHeight">
+	<ImageView android:id="@+id/nav_item_image"
+		android:layout_alignParentLeft="true" android:paddingLeft="5dp"
+		android:layout_width="64dp" android:layout_height="64dp" android:scaleType="centerCrop"/>
+	<TextView android:id="@+id/nav_item_title"
+		android:layout_toRightOf="@id/nav_item_image" android:paddingLeft="5dp"
+		android:layout_centerVertical="true" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" />
+</RelativeLayout>

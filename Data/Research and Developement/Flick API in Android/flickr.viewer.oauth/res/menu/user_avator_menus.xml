@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_item_user_web_site"
+        android:title="@string/menu_item_go_user_webpage"></item>
+
+    <item
+        android:id="@+id/menu_item_user_photo_stream"
+        android:title="@string/show_owner_photos"></item>
+
+</menu>

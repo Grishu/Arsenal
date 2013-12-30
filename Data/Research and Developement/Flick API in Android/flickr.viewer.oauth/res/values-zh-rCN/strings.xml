@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Flickr浏览器 HD</string>
+	<string name="help_file_name">help-zh.html</string>
+
+	<string name="menu_item_remove_fav">从我的最爱中删除</string>
+	<string name="menu_share_title">分享</string>
+	<string name="menu_write_comment">留言</string>
+	<string name="menu_item_add_photo_to_group">添加到博览馆/相片集/社群</string>
+	<string name="menu_previous_page">上一页</string>
+	<string name="menu_next_page">下一页</string>
+	<string name="menu_item_save">保存</string>
+	<string name="menu_item_set_wall_paper">设置为墙纸</string>
+	<string name="add_fav_photo">添加到我的最爱</string>
+	<string name="show_owner_photos">显示作者照片</string>
+	<string name="view_big_photo">显示大图</string>
+	<string name="menu_item_go_user_webpage">访问作者的flickr网页</string>
+	
+	<string name="menu_item_filter">过滤</string>
+	<string name="menu_item_sort">排序</string>
+	<string name="menu_item_sort_by_views">按照查看次数</string>
+	<string name="menu_item_sort_by_comments">按照评论数量</string>
+	<string name="menu_item_sort_by_favs">按照最爱照片</string>
+
+	<string name="new_btn">新建</string>
+	<string name="begin_btn">开始</string>
+	<string name="ok_btn">确认</string>
+	<string name="cancel_btn">取消</string>
+	<string name="submit_btn">提交</string>
+
+	<string name="photo_list">照片列表</string>
+	<string name="photo_grid_column_count">照片网格列数</string>
+	<string name="summary_photo_grid_column_count">照片网格的列的数量</string>
+	<string name="photo_grid_column_count_dlg_title">照片网格列数</string>
+
+	<string name="photo_grid_page_size">每页照片数量</string>
+	<string name="summary_photo_grid_page_size">照片网格的每页照片数量</string>
+	<string name="photo_grid_page_size_dlg_title">每页照片数量</string>
+
+	<string name="app_caches">缓存</string>
+	<string name="photo_list_cache_size">照片缓存大小</string>
+	<string name="summary_photo_list_cache_size">照片列表中图片缓存的大小.
+	</string>
+
+	<string name="app_cache_size_dlg_title">照片列表缓存大小</string>
+	<string name="pref_notif_cat">通知</string>
+	<string name="notif_enable_contact_upload">启用好友更新通知</string>
+	<string name="summary_notif_enable_contact_upload">启用/禁用好友照片更新时是否通知.</string>
+	<string name="notif_contact_upload_interval">查询好友更新时间间隔</string>
+	<string name="summary_notif_contact_upload_interval">查询好友更新的时间间隔，从而确定是否有照片更新.</string>
+	<string name="notif_contact_upload_interval_dlg_title">好友更新检查时间间隔</string>
+
+	<string name="notif_enable_photo_activity">启用我的照片活动更新提醒</string>
+	<string name="summary_notif_enable_photo_activity">启用/禁用当我的或我曾留言的照片有最新留言通知.</string>
+	<string name="notif_photo_act_interval">我的相册活动检查时间间隔</string>
+	<string name="summary_notif_photo_act_interval">检查我的或我曾留言的照片是否有最新留言的时间间隔.</string>
+	<string name="notif_photo_act_interval_dlg_title">照片活动检查时间间隔</string>
+
+	<string name="auth_hint">点击第一个按钮将前往Flickr以便授权此程序访问您的账户, 此过程中将我们不会获取您的密码.</string>
+	<string name="auth_btn_title">前往Flickr授权</string>
+	<string name="auth_done_btn_title">取消</string>
+
+	<string name="share_dlg_title">选择一个应用来分享</string>
+
+	<!-- Notification title and hints -->
+	<string name="notif_message_recent_upload">您的好友有新照片了.</string>
+	<string name="notif_message_act_on_my_photo">您有新的留言.</string>
+
+	<!-- Toast related -->
+	<string name="toast_no_activities">无活动更新.</string>
+	<string name="toast_photo_already_saved">照片已保存.</string>
+	<string name="toast_wallpaper_changed">墙纸已修改.</string>
+	<string name="toast_errx_set_wallpaper">设置照片为墙纸失败.</string>
+	<string name="toast_photo_saved">照片保存成功.</string>
+	<string name="toast_error_save_photo">保存照片失败.</string>
+	<string name="toast_error_get_photos">无法获取照片列表，请检查您的网络连接.</string>
+
+	<!-- Share photo intent related. -->
+	<string name="share_photo_intent_subj">分享照片</string>
+
+	<!-- Task messages -->
+	<string name="task_loading_favs">正在读取我的最爱...</string>
+	<string name="task_loading_interest">正在读取热门照片...</string>
+	<string name="task_searching_tags">搜索照片...</string>
+	<string name="task_loading_populars">正在读取我的热门照片...</string>
+
+	<!-- data provider desc -->
+	<string name="dp_desc_fav">我的最爱</string>
+	<string name="dp_desc_pop">我的热门照片</string>
+
+	<!-- general messages -->
+	<string name="adding_fav">添加照片至我的最爱...</string>
+	<string name="fav_added">这张照片被成功添加到我的最爱.
+	</string>
+	<string name="error_add_fav">添加这张照片到我的最爱失败.</string>
+	<string name="user_fav_ur_photo">加为我的最爱.</string>
+	<string name="remove_fav_done">成功从我的最爱中移除.</string>
+	<string name="remove_fav_error">从我的最爱中移除失败.</string>
+
+	<string name="loading_photos">正在读取照片...</string>
+	<string name="loading_recent_act">正在读取最新活动...</string>
+	<string name="loading_photo_detail">正在读取照片详细信息..</string>
+	<string name="loading_contacts">正在读取我的好友...</string>
+
+	<!-- comments -->
+	<string name="adding_comments">正在添加留言...</string>
+	<string name="comment_added">添加留言成功.</string>
+	<string name="error_add_comment">添加留言失败.</string>
+	<string name="comment_says">说:</string>
+
+	<!-- user -->
+	<string name="loading_user_info">读取用户信息...</string>
+
+	<!-- auth dialog -->
+	<string name="auth_dlg_title">Flickr授权</string>
+	<string name="logout_msg">一些功能将在登出后无法使用，确认您要登出吗?</string>
+	<string name="btn_yes">是</string>
+	<string name="btn_no">否</string>
+
+	<!-- main menu items -->
+	<string name="item_interesting_photo">热门照片</string>
+	<string name="item_my_photo">我的足迹</string>
+	<string name="item_my_sets">我的照片集/群组</string>
+	<string name="item_my_popular">我的热门</string>
+	<string name="item_my_contact">我的好友</string>
+	<string name="item_my_fav">我的最爱</string>
+	<string name="item_recent_activities">最新动态</string>
+	<string name="item_settings">系统设置</string>
+
+	<!-- pagination -->
+	<string name="toast_first_page">这是第一张页面.</string>
+	<string name="toast_last_page">这是最后一张页面.</string>
+
+	<string name="error_get_big_image">无法下载大图.</string>
+	<string name="msg_tags">标签:</string>
+	<string name="dlg_title_write_comment">留言</string>
+	<string name="empty_comment_error">请输入您的留言.</string>
+
+	<!-- app title -->
+	<string name="photo_stream_of">%s的相册</string>
+
+	<!-- Photo detail -->
+	<string name="exif_info">EXIF信息:</string>
+	<string name="user_comments">留言:</string>
+	<string name="no_photo_desc">无照片描述.</string>
+
+	<string name="saving_photo">正在保存照片...</string>
+
+	<!-- contact filter string -->
+	<string name="family_only">仅家人</string>
+	<string name="family_and_friend">家人和好友</string>
+	<string name="all_contacts">任何人</string>
+	<string name="contact_with_upload">有更新的联系人</string>
+	<string name="contact_filter_hint">过滤联系人</string>
+
+	<string name="photo_pool">相册</string>
+	<string name="dp_photo_pool_desc_set">照片集</string>
+	<string name="dp_photo_pool_desc_pool">群组</string>
+	<string name="task_loading_photo_pool">正在从相册中读取照片...</string>
+
+	<string name="radio_exif_label">EXIF</string>
+	<string name="radio_comment_label">留言</string>
+	<string name="radio_pool_label">相册</string>
+	<string name="section_photo_set">照片集</string>
+	<string name="section_photo_group">群组</string>
+	<string name="section_photo_gallery">博览馆</string>
+
+	<!-- General settings -->
+	<string name="pref_cat_general">普通</string>
+	<string name="gen_show_app_title">显示程序标题</string>
+	<string name="summary_gen_show_app_title">一些页面可能会有较长标题，从而造成标签搜索框过小，您可以通过选择不显示程序标题来解决此问题.</string>
+	<string name="gen_tag_search_mode">标签搜索模式</string>
+	<string name="summary_gen_tag_search_mode">当两个以上标签用于搜索时，选中此选项将使用\'与\'搜索模式, 否则为\'或\'模式.</string>
+	<string name="gen_hide_preview_titlebar">全屏时隐藏标题栏</string>
+	<string name="summary_gen_hide_preview_titlebar">在全屏浏览图片时隐藏标题栏.</string>
+
+	<string name="app_title_tags_search_result">标签</string>
+	<string name="tag_search_hint">通过标签搜索</string>
+
+	<string name="error_get_photo_detail">无法获得详细信息.</string>
+	
+	<!-- Create gallery -->
+	<string name="crt_gallery_title">标题*</string>
+	<string name="crt_gallery_desc_man">描述</string>
+	<string name="error_no_title">请输入标题</string>
+	<string name="dlg_title_crt_gallery">创建博览馆</string>
+	<string name="dlg_title_crt_photo_set">创建照片集</string>
+	<string name="gallery_created">成功创建博览馆.</string>
+	<string name="photo_set_created">成功创建照片集.</string>
+	
+	<!-- auth process -->
+	<string name="fail_to_oauth">访问您的Flickr相册失败，请稍后重试</string>
+	<string name="auth_gen_req_token">正在生成授权邀请...</string>
+	
+	<string name="error_download_big_photo">无法获取大图，请稍后重试.</string>
+	<string name="no_photo_coll_selected">请先选择一个博览馆，或照片集，或照片组.</string>
+	<string name="add_photo_to_pool_hint">某些照片组设置有一些限制，请添加您的照片到组的时候遵守这些规则.\n\n添加您的私有照片到某个照片组会使您的照片对其他人可见.</string>
+	<string name="add_photo_to_pool_dlg_title">添加到照片集</string>
+	<string name="click_begin_to_start">请点击\'开始\'</string>
+	<string name="photo_added_to">照片成功添加到了</string>
+	<string name="photo_failed_to_add_to">照片添加到照片组失败</string>
+	<string name="photo_add_to_pool_fail_reason">原因:</string>
+	<string name="add_to_pool_auto_begin">下次自动开始</string>
+	
+	<string name="pref_add_to_pool_auto_begin">添加照片到照片集</string>
+	<string name="summary_add_to_pool_auto_begin">添加照片到照片集的时候是否自动开始</string>
+</resources>
+
+

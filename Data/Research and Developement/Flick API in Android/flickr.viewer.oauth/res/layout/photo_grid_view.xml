@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/photoContainer" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<GridView android:id="@+id/grid" android:layout_width="fill_parent"
+		android:smoothScrollbar="true" android:layout_height="fill_parent"
+		android:numColumns="3" android:verticalSpacing="5dp" />
+</FrameLayout>

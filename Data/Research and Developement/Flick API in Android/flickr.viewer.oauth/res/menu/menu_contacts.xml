@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:showAsAction="ifRoom" android:id="@+id/menu_item_search"
+		android:icon="@android:drawable/ic_menu_search"
+		android:actionViewClass="android.widget.SearchView"></item>
+	<item android:icon="@drawable/contact_filter" android:title="@string/menu_item_filter"
+		android:showAsAction="ifRoom|withText">
+		<menu>
+			<group android:checkableBehavior="single">
+				<item android:id="@+id/family_only" android:title="@string/family_only" />
+				<item android:id="@+id/family_and_friend" android:title="@string/family_and_friend" />
+				<item android:id="@+id/contact_all" android:title="@string/all_contacts" android:checked="true" />
+				<item android:id="@+id/has_new_photos" android:title="@string/contact_with_upload" />
+			</group>
+		</menu>
+	</item>
+</menu>
