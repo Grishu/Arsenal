@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme_Black">
+        <item name="title_textview">@style/title_textview_black</item>
+        <item name="main_bg">@style/main_bg_black</item>
+        <item name="button">@style/button_black</item>
+    </style>
+
+    <style name="Theme_Blue">
+        <item name="title_textview">@style/title_textview_blue</item>
+        <item name="main_bg">@style/main_bg_blue</item>
+        <item name="button">@style/button_blue</item>
+    </style>
+
+    <style name="Theme_Pink">
+        <item name="title_textview">@style/title_textview_pink</item>
+        <item name="main_bg">@style/main_bg_pink</item>
+        <item name="button">@style/button_pink</item>
+    </style>
+
+</resources>
