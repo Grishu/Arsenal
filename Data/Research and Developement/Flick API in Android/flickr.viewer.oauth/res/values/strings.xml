@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Flickr Viewer HD</string>
+	<string name="help_file_name">help.html</string>
+
+	<string name="menu_item_remove_fav">Remove from Favorites</string>
+	<string name="menu_share_title">Share</string>
+	<string name="menu_write_comment">Comment</string>
+	<string name="menu_item_add_photo_to_group">Add to Gallery/Set/Group</string>
+	<string name="menu_previous_page">Previous Page</string>
+	<string name="menu_next_page">Next Page</string>
+	<string name="menu_item_save">Save</string>
+	<string name="menu_item_set_wall_paper">Set as Wallpaper</string>
+	<string name="add_fav_photo">Add as Favorite</string>
+	<string name="show_owner_photos">Show Owner\'s Photos</string>
+	<string name="view_big_photo">View Big Photo</string>
+	<string name="menu_item_go_user_webpage">Visit Owner\'s Flickr Web Page</string>
+	
+	<string name="menu_item_filter">Filter</string>
+	<string name="menu_item_sort">Sort</string>
+	<string name="menu_item_sort_by_views">Sort by Views</string>
+	<string name="menu_item_sort_by_comments">Sort by Comments</string>
+	<string name="menu_item_sort_by_favs">Sort by Favorites</string>
+
+	<string name="new_btn">Create</string>
+	<string name="begin_btn">Begin</string>
+	<string name="ok_btn">OK</string>
+	<string name="cancel_btn">Cancel</string>
+	<string name="submit_btn">Submit</string>
+
+	<string name="photo_list">Photo List</string>
+	<string name="photo_grid_column_count">Grid column count</string>
+	<string name="summary_photo_grid_column_count">The grid column count</string>
+	<string name="photo_grid_column_count_dlg_title">Photo Grid Column Count</string>
+
+	<string name="photo_grid_page_size">Page size</string>
+	<string name="summary_photo_grid_page_size">The page size of the photo grid</string>
+	<string name="photo_grid_page_size_dlg_title">Photo grid page size</string>
+
+	<string name="app_caches">Cache</string>
+	<string name="photo_list_cache_size">Photo cache size</string>
+	<string name="summary_photo_list_cache_size">The photo cache size for the photo list/grid.
+	</string>
+
+	<string name="app_cache_size_dlg_title">Photo List Cache Size</string>
+	<string name="pref_notif_cat">Notifications</string>
+	<string name="notif_enable_contact_upload">Enable notification on contact upload photos
+	</string>
+	<string name="summary_notif_enable_contact_upload">Enable/Disable the notification when your contacts
+		have photos uploaded.</string>
+	<string name="notif_contact_upload_interval">Check interval of contacts upload photos</string>
+	<string name="summary_notif_contact_upload_interval">The check interval to see if my contacts have new
+		photos uploaded or not.</string>
+	<string name="notif_contact_upload_interval_dlg_title">Contact Upload Check Interval</string>
+
+	<string name="notif_enable_photo_activity">Enable notification on activities of my photos
+	</string>
+	<string name="summary_notif_enable_photo_activity">Enable/Disable notification when comments added on
+		my photos or the photos I commented.</string>
+	<string name="notif_photo_act_interval">Check interval of activities on my photos</string>
+	<string name="summary_notif_photo_act_interval">The check interval to see if comments were added on
+		my photos or the photos I commented.</string>
+	<string name="notif_photo_act_interval_dlg_title">Photo Activity Check Interval</string>
+
+	<string name="auth_hint">
+		Click the first button to grant access to your
+		flickr
+		account, it\'s with OAUTH, your password is not known to this
+		application.
+	</string>
+	<string name="auth_btn_title">Go Flickr to Authorize</string>
+	<string name="auth_done_btn_title">Cancel</string>
+
+	<string name="share_dlg_title">Select an action to share</string>
+
+	<!-- Notification title and hints -->
+	<string name="notif_message_recent_upload">Your contacts have photos uploaded.</string>
+	<string name="notif_message_act_on_my_photo">You got comments on your photos.</string>
+
+	<!-- Toast related -->
+	<string name="toast_no_activities">No recent activities.</string>
+	<string name="toast_photo_already_saved">Photo already saved.</string>
+	<string name="toast_wallpaper_changed">Wallpaper changed.</string>
+	<string name="toast_error_set_wallpaper">Error to set the photo as wallpaper.</string>
+	<string name="toast_photo_saved">Photo saved successfully.</string>
+	<string name="toast_error_save_photo">Error to save the photo.</string>
+	<string name="toast_error_get_photos">Unable to get photo list, please check your network
+		access.</string>
+
+	<!-- Share photo intent related. -->
+	<string name="share_photo_intent_subj">Share Photo</string>
+
+	<!-- Task messages -->
+	<string name="task_loading_favs">Loading favorite photos...</string>
+	<string name="task_loading_interest">Loading interesting photos...</string>
+	<string name="task_searching_tags">Searching photos...</string>
+	<string name="task_loading_populars">Loading my popular photos...</string>
+
+	<!-- data provider desc -->
+	<string name="dp_desc_fav">My favorite photos</string>
+	<string name="dp_desc_pop">My popular photos</string>
+
+	<!-- general messages -->
+	<string name="adding_fav">Adding photo as my favorite...</string>
+	<string name="fav_added">This photo was added to favorites successfully.
+	</string>
+	<string name="error_add_fav">Error to add this photo to favorites.</string>
+	<string name="user_fav_ur_photo">added this as favorite.</string>
+	<string name="remove_fav_done">Photo removed from favorites.</string>
+	<string name="remove_fav_error">Error to remove this photo from favorites.</string>
+
+	<string name="loading_photos">Loading photos...</string>
+	<string name="loading_recent_act">Loading recent activities...</string>
+	<string name="loading_photo_detail">Loading photo detail..</string>
+	<string name="loading_contacts">Loading contacts...</string>
+
+	<!-- comments -->
+	<string name="adding_comments">Adding comment...</string>
+	<string name="comment_added">Comment added.</string>
+	<string name="error_add_comment">Error to add comment.</string>
+	<string name="comment_says">says:</string>
+
+	<!-- user -->
+	<string name="loading_user_info">Loading user information...</string>
+
+	<!-- auth dialog -->
+	<string name="auth_dlg_title">Flickr Authorization</string>
+	<string name="logout_msg">Some features will not work after logout, are you
+		sure to logout?</string>
+	<string name="btn_yes">Yes</string>
+	<string name="btn_no">No</string>
+
+	<!-- main menu items -->
+	<string name="item_interesting_photo">Interesting Photos</string>
+	<string name="item_my_photo">My Photos</string>
+	<string name="item_my_sets">My Sets/Groups</string>
+	<string name="item_my_popular">My Popular Photos</string>
+	<string name="item_my_contact">My Contacts</string>
+	<string name="item_my_fav">My Favorites</string>
+	<string name="item_recent_activities">Recent Activities</string>
+	<string name="item_settings">Settings</string>
+
+	<!-- pagination -->
+	<string name="toast_first_page">This is the first page.</string>
+	<string name="toast_last_page">This is the last page.</string>
+
+	<string name="error_get_big_image">Unable to get the big image.</string>
+	<string name="msg_tags">Tags:</string>
+	<string name="dlg_title_write_comment">Write Comment</string>
+	<string name="empty_comment_error">Please input your comment.</string>
+
+	<!-- app title -->
+	<string name="photo_stream_of">Photostream of %s</string>
+
+	<!-- Photo detail -->
+	<string name="exif_info">EXIF Information:</string>
+	<string name="user_comments">Comments:</string>
+	<string name="no_photo_desc">No description provided.</string>
+
+	<string name="saving_photo">Saving photo...</string>
+
+	<!-- contact filter string -->
+	<string name="family_only">Family Only</string>
+	<string name="family_and_friend">Family and Friend</string>
+	<string name="all_contacts">All Contacts</string>
+	<string name="contact_with_upload">Have Recent Upload</string>
+	<string name="contact_filter_hint">Filter Contacts</string>
+
+	<string name="photo_pool">Photo Pool</string>
+	<string name="dp_photo_pool_desc_set">Photo set</string>
+	<string name="dp_photo_pool_desc_pool">Photo group</string>
+	<string name="task_loading_photo_pool">Loading photos from photo pool...</string>
+
+	<string name="radio_exif_label">EXIF</string>
+	<string name="radio_comment_label">Comments</string>
+	<string name="radio_pool_label">Photo Pool</string>
+	<string name="section_photo_set">Photo Set</string>
+	<string name="section_photo_group">Photo Group</string>
+	<string name="section_photo_gallery">Gallery</string>
+
+	<!-- General settings -->
+	<string name="pref_cat_general">General</string>
+	<string name="gen_show_app_title">Show application title</string>
+	<string name="summary_gen_show_app_title">Some pages will have a very long application title,
+		then the tag search view will be very small. You can choose to show or
+		hide the application title.</string>
+	<string name="gen_tag_search_mode">Tag search mode</string>
+	<string name="summary_gen_tag_search_mode">When 2 or more tags provided to search, check
+		this
+		to use the \'AND\' search mode, otherwise, \'any\' mode, that is,
+		\'OR\' mode, will be used.</string>
+	<string name="gen_hide_preview_titlebar">Hide preview title bar</string>
+	<string name="summary_gen_hide_preview_titlebar">Hide the title bar of the photo preview 
+	    for a better view.</string>
+
+	<string name="app_title_tags_search_result">Tags</string>
+	<string name="tag_search_hint">Search by Tags</string>
+
+	<string name="error_get_photo_detail">Unable to get the detail information.</string>
+
+	<!-- Create gallery -->
+	<string name="crt_gallery_title">Title*</string>
+	<string name="crt_gallery_desc_man">Description</string>
+	<string name="error_no_title">Please input title</string>
+	<string name="dlg_title_crt_gallery">Create Gallery</string>
+	<string name="dlg_title_crt_photo_set">Create Photo Set</string>
+	<string name="gallery_created">Gallery created successfully.</string>
+	<string name="photo_set_created">Photo set created successfully.</string>
+
+	<!-- auth process -->
+	<string name="fail_to_oauth">Failed to access your flickr account, please try
+		again</string>
+	<string name="auth_gen_req_token">Generating the authorization request...</string>
+
+	<string name="error_download_big_photo">Unable to get the big photo, please try again.
+	</string>
+	<string name="no_photo_coll_selected">Please select a gallery/set/group first.</string>
+	<string name="add_photo_to_pool_hint">When adding your photos to groups, please be aware
+		that some groups may have constraints, make sure you follow the rules
+		of the groups.\n\nBe careful when trying to add your private photos to
+		a
+		group, it will be visible to other.</string>
+	<string name="add_photo_to_pool_dlg_title">Add to Pools</string>
+	<string name="click_begin_to_start">Click \'Begin\' to start</string>
+	<string name="photo_added_to">Photo added to</string>
+	<string name="photo_failed_to_add_to">Failed to add photo to</string>
+	<string name="photo_add_to_pool_fail_reason">Reason:</string>
+	<string name="add_to_pool_auto_begin">Begin automatically next time</string>
+	
+	<string name="pref_add_to_pool_auto_begin">Add photo to pools</string>
+	<string name="summary_add_to_pool_auto_begin">Check this so that I do not need to click the
+		\'Begin\' button every time when adding a photo to pools</string>
+</resources>
+
+

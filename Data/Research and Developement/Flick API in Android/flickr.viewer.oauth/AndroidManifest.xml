@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gmail.charleszq"
+    android:installLocation="preferExternal"
+    android:versionCode="19"
+    android:versionName="1.2.8" >
+
+    <uses-sdk android:minSdkVersion="11" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.SET_WALLPAPER" >
+    </uses-permission>
+
+    <application
+        android:name=".FlickrViewerApplication"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Flickr.Viewer.Theme" >
+        <activity
+            android:name="FlickrViewerActivity"
+            android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="INTENT_ACTION_CONTACT_PHOTO_UPLOADED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="INTENT_ACTION_ACT_ON_MY_PHOTO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="flickr-viewer-hd-oauth" />
+            </intent-filter>
+        </activity>
+        <activity android:name="PhotoLocationActivity" >
+        </activity>
+        <activity android:name=".ViewBigPhotoActivity" >
+        </activity>
+
+        <service android:name=".services.ContactUploadService" >
+        </service>
+        <service android:name=".services.PhotoActivityService" >
+        </service>
+
+        <receiver android:name=".services.TimeUpReceiver" />
+
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="true" >
+        </uses-library>
+    </application>
+
+    <supports-screens
+        android:largeScreens="false"
+        android:normalScreens="false"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+</manifest>

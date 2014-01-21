@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:padding="40dp">
+
+	<ListView android:id="@+id/list_menu" android:choiceMode="singleChoice"
+		android:layout_width="fill_parent" android:layout_height="0dp"
+		android:layout_weight="1" />
+	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/user_panel" android:padding="5dp"
+		android:layout_marginBottom="15dp" style="@android:style/Holo.ButtonBar"
+		android:orientation="horizontal" android:layout_height="wrap_content">
+		<ImageView android:id="@+id/user_icon" android:src="@drawable/contacts"
+			android:layout_gravity="left|center" android:layout_marginLeft="5dp"
+			android:layout_width="36dp" android:layout_height="36dp" />
+		<TextView android:id="@+id/user_name" android:layout_weight="1"
+			android:layout_marginLeft="5dp" android:gravity="left|center"
+			android:layout_width="wrap_content" android:layout_height="fill_parent" />
+		<ImageView android:id="@+id/buttonLogout"
+			android:layout_gravity="center|center" android:clickable="true"
+			android:layout_width="48dp" android:background="@drawable/action_bar_item"
+			android:src="@drawable/logout" android:layout_height="48dp" />
+	</LinearLayout>
+</LinearLayout>

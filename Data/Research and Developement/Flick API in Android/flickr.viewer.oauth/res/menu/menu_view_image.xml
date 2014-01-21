@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:title="@string/menu_write_comment"
+		android:showAsAction="ifRoom" android:icon="@android:drawable/ic_menu_edit"
+		android:id="@+id/menu_item_write_comment" />
+	<item android:title="@string/menu_share_title"
+		android:showAsAction="ifRoom" android:icon="@android:drawable/ic_menu_share"
+		android:id="@+id/menu_item_share"></item>
+	<item android:title="@string/add_fav_photo" android:id="@+id/menu_item_add_as_fav" />
+	<item android:title="@string/menu_item_add_photo_to_group"
+		android:id="@+id/menu_item_add_photo_to_group" />
+	<item android:title="@string/show_owner_photos" android:id="@+id/menu_item_show_owner_photos" />
+	<item android:title="@string/view_big_photo" android:id="@+id/menu_item_view_big_photo"
+		android:icon="@android:drawable/ic_menu_zoom" android:showAsAction="ifRoom" />
+</menu>
