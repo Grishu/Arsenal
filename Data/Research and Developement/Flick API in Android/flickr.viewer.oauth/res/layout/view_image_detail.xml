@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:padding="5dp" android:layout_height="fill_parent">
+	<RelativeLayout android:layout_width="0dp"
+		android:layout_weight="3" android:layout_height="fill_parent">
+		<ImageView android:id="@+id/image" android:layout_width="wrap_content"
+			android:layout_marginTop="5dp" android:layout_centerHorizontal="true"
+			android:layout_alignParentTop="true" android:layout_height="wrap_content" />
+		<TextView android:id="@+id/titlebyauthor"
+			android:layout_below="@id/image" android:layout_marginTop="10dp"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center" />
+		<!-- Beginning of views/comments/favs -->
+		<ImageView android:id="@+id/detailsViewsIcon" android:layout_height="wrap_content" 
+		    android:layout_above="@+id/photo_tags" android:layout_marginLeft="30dp"
+		    android:src="@drawable/views" android:layout_marginBottom="2dp"
+			android:layout_width="wrap_content"  />
+		<TextView android:id="@+id/views_text" android:layout_width="wrap_content"
+			android:layout_marginLeft="2dp" android:singleLine="true"
+			android:gravity="center" android:layout_height="wrap_content" 
+			android:textSize="10sp" android:layout_above="@+id/photo_tags"
+			android:layout_toRightOf="@+id/detailsViewsIcon" />
+		<ImageView android:id="@+id/detailsCommentsIcon" android:layout_marginLeft="50dp"
+			android:layout_height="wrap_content" android:layout_marginRight="2dp"
+			android:src="@drawable/comments" android:layout_toRightOf="@+id/views_text"
+			android:layout_width="wrap_content"
+			android:layout_above="@+id/photo_tags" android:layout_marginBottom="2dp"/>
+		<TextView android:id="@+id/comments_text" android:layout_width="wrap_content"
+			android:gravity="center" android:singleLine="true"
+			android:layout_gravity="center_vertical" android:layout_weight="1"
+			android:layout_height="wrap_content" android:textSize="10sp" 
+			android:layout_toRightOf="@+id/detailsCommentsIcon"
+			android:layout_above="@+id/photo_tags"/>
+		<!-- <ImageView android:id="@+id/detailsFavsIcon" android:layout_marginLeft="50dp"
+			android:layout_height="wrap_content" android:layout_marginRight="2dp"
+			android:src="@drawable/favourites" android:layout_toRightOf="@+id/comments_text"
+			android:layout_width="wrap_content" android:scaleType="fitXY" 
+			android:layout_above="@+id/photo_tags"/>
+		<TextView android:id="@+id/favourites_text" android:layout_width="wrap_content"
+			android:gravity="center" android:singleLine="true"
+			android:layout_gravity="center_vertical" android:layout_weight="1"
+			android:layout_height="wrap_content" android:textSize="10sp" 
+			android:layout_toRightOf="@+id/detailsFavsIcon"
+			android:layout_above="@+id/photo_tags"/> -->
+		<!-- End of views/comments/favs -->
+		<com.gmail.charleszq.ui.comp.PhotoDetailActionBar
+			style="@android:style/Holo.ButtonBar"
+			android:layout_centerHorizontal="true" android:id="@+id/user_action_bar"
+			android:layout_alignParentBottom="true" android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+			android:layout_marginBottom="50dp" android:layout_width="fill_parent" />
+		<TextView android:id="@+id/photo_tags" android:layout_above="@id/user_action_bar"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginLeft="30dp" android:layout_marginRight="20dp"
+			android:layout_marginBottom="5dp" android:singleLine="true"
+			android:marqueeRepeatLimit="-1" android:ellipsize="marquee" />
+
+	</RelativeLayout>
+	<ViewSwitcher android:id="@+id/add_group_switcher"
+		android:layout_width="0dp" android:layout_weight="2"
+		android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<RadioGroup android:id="@+id/radioGroup"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:orientation="horizontal">
+				<RadioButton android:id="@+id/exifRadio" android:text="@string/radio_exif_label"
+					android:checked="true" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_weight="1" />
+				<RadioButton android:id="@+id/commentRadio"
+					android:text="@string/radio_comment_label" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_weight="1" />
+				<RadioButton android:id="@+id/poolRadio" android:text="@string/radio_pool_label"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_weight="1" />
+			</RadioGroup>
+			<ViewAnimator android:id="@+id/switcher"
+				android:layout_weight="3" android:layout_width="fill_parent"
+				android:layout_height="0dp">
+				<RelativeLayout android:layout_width="fill_parent"
+					android:layout_height="fill_parent">
+					<ProgressBar android:id="@+id/exifProgressBar"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_alignParentRight="true"
+						android:layout_alignParentTop="true" />
+					<TextView android:id="@+id/exifLabel"
+						android:layout_width="wrap_content" android:layout_marginLeft="10dp"
+						android:layout_height="wrap_content" android:layout_alignTop="@id/exifProgressBar"
+						android:layout_alignBottom="@id/exifProgressBar" android:gravity="center"
+						android:layout_alignParentLeft="true" android:text="@string/exif_info" />
+					<ListView android:id="@+id/exifList"
+						android:layout_height="fill_parent" android:layout_below="@id/exifLabel"
+						android:layout_alignLeft="@id/exifLabel" android:layout_gravity="center"
+						android:layout_width="fill_parent" android:padding="10dp" />
+				</RelativeLayout>
+				<RelativeLayout android:layout_width="fill_parent"
+					android:layout_height="fill_parent">
+					<ProgressBar android:id="@+id/commentProgressBar"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_alignParentRight="true"
+						android:layout_alignParentTop="true" />
+					<TextView android:id="@+id/labelComment" android:text="@string/user_comments"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_alignParentLeft="true" android:layout_alignTop="@id/commentProgressBar"
+						android:layout_alignBottom="@id/commentProgressBar"
+						android:gravity="center" android:layout_marginLeft="10dp" />
+					<ListView android:id="@+id/listComments"
+						android:layout_below="@id/labelComment" android:layout_marginLeft="10dp"
+						android:layout_alignLeft="@id/labelComment" android:layout_width="fill_parent"
+						android:layout_height="fill_parent" />
+				</RelativeLayout>
+				<com.gmail.charleszq.ui.comp.PhotoPoolComponent
+					android:id="@+id/photo_detail_pool" android:layout_height="fill_parent"
+					android:layout_width="fill_parent" />
+			</ViewAnimator>
+			<ScrollView android:layout_width="fill_parent"
+				android:scrollbars="vertical" android:fillViewport="true"
+				android:padding="10dp" style="@android:style/Holo.ButtonBar"
+				android:layout_height="0dp" android:layout_weight="1"
+				android:layout_margin="10dp">
+				<TextView android:id="@+id/photo_desc"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"
+					android:singleLine="false" />
+			</ScrollView>
+		</LinearLayout>
+		<com.gmail.charleszq.ui.comp.AddPhotoToGroupComponent
+			android:id="@+id/add_photo_to_set_view" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" />
+	</ViewSwitcher>
+</LinearLayout>

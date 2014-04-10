@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:padding="30dp"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<!--
+		<SearchView android:id="@+id/search_view" android:focusable="false"
+		android:focusableInTouchMode="false"
+		android:iconifiedByDefault="false" android:layout_marginBottom="10dp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	-->
+	<com.gmail.charleszq.ui.comp.UserPhotoCollectionComponent
+		android:id="@+id/user_collection_list" android:layout_height="0dp"
+		android:layout_weight="1" android:layout_width="fill_parent" />
+	<ViewSwitcher android:layout_height="wrap_content"
+		android:layout_marginTop="20dp" style="@android:style/Holo.ButtonBar"
+		android:id="@+id/switcher" android:layout_width="fill_parent">
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_gravity="center" android:padding="10dp"
+			android:layout_width="fill_parent" android:orientation="horizontal">
+			<ImageButton android:layout_width="0dp" android:id="@+id/btn_search"
+				android:clickable="true" android:scaleType="fitCenter"
+				android:background="@drawable/action_bar_item"
+				android:layout_weight="1" android:layout_height="32dp"
+				android:visibility="gone" android:src="@drawable/blue_search" />
+			<ImageButton android:layout_width="0dp"
+				android:clickable="true" android:id="@+id/btn_refresh"
+				android:scaleType="fitCenter" android:background="@drawable/action_bar_item"
+				android:layout_weight="1" android:layout_height="32dp" android:src="@drawable/refresh" />
+			<ImageButton android:layout_width="0dp"
+				android:clickable="true" android:id="@+id/btn_back"
+				android:scaleType="fitCenter" android:background="@drawable/action_bar_item"
+				android:layout_weight="1" android:layout_height="32dp" android:src="@drawable/back2" />
+		</LinearLayout>
+		<SearchView android:iconifiedByDefault="false"
+			android:layout_gravity="center" android:id="@+id/search_view"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></SearchView>
+	</ViewSwitcher>
+
+</LinearLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Flickr Viewer HD</string>
+	<string name="help_file_name">help-it.html</string>
+
+	<string name="menu_item_remove_fav">Elimina dai favoriti</string>
+	<string name="menu_share_title">Condividi</string>
+	<string name="menu_write_comment">Commenta</string>
+	<string name="menu_item_add_photo_to_group">Aggiungi a Set/Gruppo/Galleria</string>
+	<string name="menu_previous_page">Pagina precedente</string>
+	<string name="menu_next_page">Pagina successiva</string>
+	<string name="menu_item_save">Salva</string>
+	<string name="menu_item_set_wall_paper">Imposta come Wallpaper</string>
+	<string name="add_fav_photo">Aggiungi a favoriti</string>
+	<string name="show_owner_photos">Mostra proprietario\i Foto</string>
+	<string name="view_big_photo">Visualizza grande</string>
+	<string name="menu_item_go_user_webpage">Visita la pagina del\i proprietario\i</string>
+	
+	<string name="menu_item_filter">Filtro</string>
+	<string name="menu_item_sort">Ordine</string>
+	<string name="menu_item_sort_by_views">Ordina per n° visualizzazioni</string>
+	<string name="menu_item_sort_by_comments">Ordina per n° commenti</string>
+	<string name="menu_item_sort_by_favs">Ordina per n° preferita</string>
+
+	<string name="new_btn">Nuovo</string>
+	<string name="begin_btn">Esegui</string>
+	<string name="ok_btn">OK</string>
+	<string name="cancel_btn">Annulla</string>
+	<string name="submit_btn">Invia</string>
+
+	<string name="photo_list">Lista foto</string>
+	<string name="photo_grid_column_count">Numero di colonne</string>
+	<string name="summary_photo_grid_column_count">Numero di colonne nella griglia</string>
+	<string name="photo_grid_column_count_dlg_title">Numero di colonne nella griglia</string>
+
+	<string name="photo_grid_page_size">Dimensione pagina</string>
+	<string name="summary_photo_grid_page_size">Dimensione della pagina contenente le foto</string>
+	<string name="photo_grid_page_size_dlg_title">Dimensione pagina della foto</string>
+
+	<string name="app_caches">Cache</string>
+	<string name="photo_list_cache_size">Dimensione della cache</string>
+	<string name="summary_photo_list_cache_size">Dimensione della cache della lista di foto</string>
+
+	<string name="app_cache_size_dlg_title">Dimensione cache</string>
+	<string name="pref_notif_cat">Notifiche</string>
+	<string name="notif_enable_contact_upload">Abilita notifica in caso di nuova foto da contatto</string>
+	<string name="summary_notif_enable_contact_upload">Abilita/disabilita notifica quando i tuoi contatti inseriscono nuove foto.</string>
+	<string name="notif_contact_upload_interval">Intervallo di verifica inserimento nuove foto</string>
+	<string name="summary_notif_contact_upload_interval">Intervallo di tempo che deve trascorrere prima di eseguire una verifica su nuovi inserimenti da parte dei contatti.</string>
+	<string name="notif_contact_upload_interval_dlg_title">Verifica nuove foto dei contatti</string>
+
+	<string name="notif_enable_photo_activity">Abilita notifica su nuove attività nelle mie foto</string>
+	<string name="summary_notif_enable_photo_activity">Abilita/Disabilita notifica  commenti nelle mie foto o nelle foto da me commentate.</string>
+	<string name="notif_photo_act_interval">Intervallo di verifica nuove attività nelle mie foto</string>
+	<string name="summary_notif_photo_act_interval">Intervallo di verifica dei commenti.</string>
+	<string name="notif_photo_act_interval_dlg_title">Intervallo verifica attività</string>
+
+	<string name="auth_hint">Fare clic sul pulsante \'Vai a Flickr\' per autorizzare l\'accesso al tuo account Flickr. La pasword non sarà nota all\'applicazione.</string>
+	<string name="auth_btn_title">Vai a Flickr</string>
+	<string name="auth_done_btn_title">Annulla</string>
+
+	<string name="share_dlg_title">Seleziona un\'azione di condivisione</string>
+
+	<!-- Notification title and hints -->
+	<string name="notif_message_recent_upload">Un tuo contatto ha aggiunto foto.</string>
+	<string name="notif_message_act_on_my_photo">Ci sono nuovi commenti nelle tue foto.</string>
+
+	<!-- Toast related -->
+	<string name="toast_no_activities">Nessuna attività recente.</string>
+	<string name="toast_photo_already_saved">Foto già salvata.</string>
+	<string name="toast_wallpaper_changed">Wallpaper cambiato.</string>
+	<string name="toast_error_set_wallpaper">Errore nell\'impostazione del Wallpaper.</string>
+	<string name="toast_photo_saved">Foto salvata.</string>
+	<string name="toast_error_save_photo">Errore nel salvataggio della foto.</string>
+	<string name="toast_error_get_photos">Impossibile accedere alla lista delle foto, verificare l\'accesso alla rete.</string>
+
+	<!-- Share photo intent related. -->
+	<string name="share_photo_intent_subj">Condividi la foto</string>
+
+	<!-- Task messages -->
+	<string name="task_loading_favs">Caricamento delle foto preferite...</string>
+	<string name="task_loading_interest">Caricamento foto interessanti...</string>
+	<string name="task_searching_tags">Ricerca foto...</string>
+	<string name="task_loading_populars">Carica le mie foto interessanti...</string>
+
+	<!-- data provider desc -->
+	<string name="dp_desc_fav">Le mie foto preferite</string>
+	<string name="dp_desc_pop">Le mie foto interessanti</string>
+
+	<!-- general messages -->
+	<string name="adding_fav">Aggiungi foto alle preferite...</string>
+	<string name="fav_added">La foto è stata aggiunta alle preferite.
+	</string>
+	<string name="error_add_fav">Errore di aggiunta alle favotite.</string>
+	<string name="user_fav_ur_photo">Aggiungi come preferita.</string>
+	<string name="remove_fav_done">Foto rimossa dalle preferite.</string>
+	<string name="remove_fav_error">Errore di rimozione delle preferite.</string>
+
+	<string name="loading_photos">Caricamento foto...</string>
+	<string name="loading_recent_act">Caricamento attività recenti...</string>
+	<string name="loading_photo_detail">Caricamento dettagli foto...</string>
+	<string name="loading_contacts">Caricamento contatti...</string>
+
+	<!-- comments -->
+	<string name="adding_comments">Aggiungi commento...</string>
+	<string name="comment_added">Commento aggiunto.</string>
+	<string name="error_add_comment">Errore nell\'aggiunta di commento.</string>
+	<string name="comment_says">Scrivi:</string>
+
+	<!-- user -->
+	<string name="loading_user_info">Caricamento informazioni utente...</string>
+
+	<!-- auth dialog -->
+	<string name="auth_dlg_title">Autorizzazione Flickr</string>
+	<string name="logout_msg">Alcune funzioni non saranno più disponibili dopo il logout, sei sicuro di voler eseguire il logout?</string>
+	<string name="btn_yes">Si</string>
+	<string name="btn_no">No</string>
+
+	<!-- main menu items -->
+	<string name="item_interesting_photo">Foto interessanti</string>
+	<string name="item_my_photo">Il mio album</string>
+	<string name="item_my_sets">I miei Set/Gruppi</string>
+	<string name="item_my_popular">Le mie foto interessanti</string>
+	<string name="item_my_contact">I miei contatti</string>
+	<string name="item_my_fav">Le mie foto preferite</string>
+	<string name="item_recent_activities">Attività recenti</string>
+	<string name="item_settings">Impostazioni</string>
+
+	<!-- pagination -->
+	<string name="toast_first_page">Questa è la prima pagina.</string>
+	<string name="toast_last_page">Questa è l\'ultima pagina.</string>
+
+	<string name="error_get_big_image">Impossibile trovare l\'immagine grande.</string>
+	<string name="msg_tags">Tags:</string>
+	<string name="dlg_title_write_comment">Scrivi commento</string>
+	<string name="empty_comment_error">Inserisci il tuo commento.</string>
+
+	<!-- app title -->
+	<string name="photo_stream_of">Album di %s</string>
+
+	<!-- Photo detail -->
+	<string name="exif_info">Informazioni EXIF:</string>
+	<string name="user_comments">Commenti:</string>
+	<string name="no_photo_desc">Nessuna descrizione.</string>
+
+	<string name="saving_photo">Salvataggio foto...</string>
+
+	<!-- contact filter string -->
+	<string name="family_only">Solo famigliari</string>
+	<string name="family_and_friend">Famigliari ed amici</string>
+	<string name="all_contacts">Tutti i contatti</string>
+	<string name="contact_with_upload">Con upload recenti</string>
+	<string name="contact_filter_hint">Filtra contatti</string>
+
+	<string name="photo_pool">Contenuta in</string>
+	<string name="dp_photo_pool_desc_set">Set</string>
+	<string name="dp_photo_pool_desc_pool">Contenuta in</string>
+	<string name="task_loading_photo_pool">Caricamento Set/Gruppo/Galleria...</string>
+
+	<string name="radio_exif_label">EXIF</string>
+	<string name="radio_comment_label">Commenti</string>
+	<string name="radio_pool_label">Contenuta in</string>
+	<string name="section_photo_set">Set</string>
+	<string name="section_photo_group">Gruppo</string>
+	<string name="section_photo_gallery">Galleria</string>
+
+	<!-- General settings -->
+	<string name="pref_cat_general">Generale</string>
+	<string name="gen_show_app_title">Mostra titolo applicazione</string>
+	<string name="summary_gen_show_app_title">Alcune pagine potranno avere un titolo molto lungo e riducono la casella di ricerca. Selezionando questa opzione il titolo sarà visibile.</string>
+	<string name="gen_tag_search_mode">Modalità di ricerca TAGs</string>
+	<string name="summary_gen_tag_search_mode">Quando vengono ricercati due o più TAG, selezionando questa opzione verrà effettuata una ricerca con modalità \'AND\' diversamente verrà utilizzata la modalità \'OR\'.
+	</string>
+	<string name="gen_hide_preview_titlebar">Nascondi barra del titolo nella preview</string>
+	<string name="summary_gen_hide_preview_titlebar">Selezionando questa opzione viene nascosta
+	    la barra del titolo nella preview della foto per una visione ottimale.
+	</string>
+	
+	<string name="app_title_tags_search_result">Tags</string>
+	<string name="tag_search_hint">Cerca per Tags</string>
+
+	<string name="error_get_photo_detail">Impossibile caricare i dettagli.</string>
+
+	<!-- Create gallery -->
+	<string name="crt_gallery_title">Titolo*</string>
+	<string name="crt_gallery_desc_man">Descrizione</string>
+	<string name="error_no_title">Inserisci titolo</string>
+	<string name="dlg_title_crt_gallery">Crea galleria</string>
+	<string name="dlg_title_crt_photo_set">Crea Set</string>
+	<string name="gallery_created">Galleria create correttamente.</string>
+	<string name="photo_set_created">Set creato correttamente.</string>
+
+	<!-- auth process -->
+	<string name="fail_to_oauth">Tentativo di accesso all\'account fallito, riprova</string>
+	<string name="auth_gen_req_token">In fase di autorizzazione...</string>
+
+	<string name="error_download_big_photo">Impossibile accedere alla foto grande, riprova.</string>
+	<string name="no_photo_coll_selected">Seleziona Set/Gruppo/Galleria.</string>
+	<string name="add_photo_to_pool_hint">Quando aggiungi foto a gruppi prestare particolare attenzione alle regole imposte.\n\nUna foto aggiunta ad un gruppo sarà visibile anche ad altri utenti.</string>
+	<string name="add_photo_to_pool_dlg_title">Aggiungi a Set/Gruppo/Galleria</string>
+	<string name="click_begin_to_start">Premi  \'Esegui\' per aggiungere</string>
+	<string name="photo_added_to">Foto aggiunta a </string>
+	<string name="photo_failed_to_add_to">Fallito aggiunta foto a </string>
+	<string name="photo_add_to_pool_fail_reason">Motivo:</string>
+	<string name="add_to_pool_auto_begin">Non chiedere più in futuro.</string>
+	
+	<string name="pref_add_to_pool_auto_begin">Aggiunta automatica foto a Set/Gruppo/Galleria</string>
+	<string name="summary_add_to_pool_auto_begin">Aggiunta automatica. Permette di aggiungere la foto a Set, gruppi o gallerie senza confermare ogni volta.</string>
+</resources>
+
+

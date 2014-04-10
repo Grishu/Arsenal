@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:minHeight="128dp" android:layout_width="fill_parent"
+	android:background="@drawable/contact_item_bg" android:layout_height="fill_parent">
+	<ImageView android:id="@+id/contact_icon"
+		android:layout_margin="10dp" android:layout_alignParentLeft="true"
+		android:gravity="center" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" />
+	<TextView android:id="@+id/contact_name" android:layout_width="wrap_content"
+		android:layout_toRightOf="@id/contact_icon" android:layout_alignTop="@id/contact_icon"
+		android:layout_height="wrap_content" android:singleLine="true"
+		android:gravity="left|center" android:ellipsize="marquee"
+		android:selectAllOnFocus="true" />
+	<View android:id="@+id/right_line" android:layout_height="fill_parent"
+		android:minHeight="128dp" android:layout_alignWithParentIfMissing="true"
+		android:layout_width="5dp" android:layout_alignParentRight="true"
+		android:layout_centerVertical="true" android:background="@drawable/sep" />
+	<ImageView android:id="@+id/has_new_photo"
+		android:layout_marginTop="10dp" android:layout_width="32dp"
+		android:layout_height="32dp" android:layout_marginRight="5dp"
+		android:layout_toLeftOf="@id/right_line" android:src="@drawable/notification"
+		android:visibility="gone" />
+
+	<CheckBox android:id="@+id/cb_family" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="10dp"
+		android:enabled="false" android:layout_alignParentBottom="true"
+		android:focusable="false" android:text="Family" />
+	<CheckBox android:id="@+id/cb_friend" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="5dp"
+		android:layout_toRightOf="@id/cb_family" android:enabled="false"
+		android:focusable="false" android:layout_alignParentBottom="true"
+		android:text="Friend" />
+</RelativeLayout>

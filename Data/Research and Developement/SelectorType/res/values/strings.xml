@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Selector</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_selector_type">SelectorTypeActivity</string>
+    <string name="title_selector_type">Selector Type</string>
+    <string name="image_selector">Image selector</string>
+    <string name="single_color_selector">Single color </string>
+    <string name="two_color_selector">Gradiant with two Color </string>
+    <string name="three_color_selector">Gradiant with three Color </string>
+    <string name="gradiant_font_selector">Gradiant &amp; Font color</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="5dp" android:layout_width="fill_parent"
+	android:background="?android:attr/activatedBackgroundIndicator"
+	android:layout_height="?android:attr/listPreferredItemHeight">
+	<ImageView android:id="@+id/photo_pool_icon"
+		android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+		android:layout_width="48dp" android:layout_height="48dp"
+		android:scaleType="centerCrop" />
+	<TextView android:id="@+id/photo_pool_title"
+		android:layout_toRightOf="@id/photo_pool_icon"
+		android:layout_marginLeft="10dp" android:gravity="left|center"
+		android:layout_alignTop="@id/photo_pool_icon"
+		android:layout_alignBottom="@id/photo_pool_icon"
+		android:layout_height="wrap_content" android:layout_width="wrap_content" />
+
+</RelativeLayout>

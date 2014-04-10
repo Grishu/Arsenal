@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent">
+	<!-- key charles@home -->
+	<!-- 
+	<com.google.android.maps.MapView
+		android:id="@+id/mapView" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:enabled="true"
+		android:clickable="true" android:apiKey="08VmASU5hfyIOAKOvItF8A9Vm4pw7FxOkhJ0h7w" />
+	 -->	
+	
+	<!-- key charles@office -->
+	<!--
+	<com.google.android.maps.MapView
+		android:id="@+id/mapView" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:enabled="true"
+		 android:clickable="true" android:apiKey="08VmASU5hfyIN4AGGxnTmE8E8RKxD4pVQD_ZNDQ" />
+	-->
+
+	<!-- This is the production key produced on yayu-x64 -->
+	<com.google.android.maps.MapView
+		android:id="@+id/mapView" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:enabled="true"
+		 android:clickable="true" android:apiKey="0EaQQJj6ZFKnZL9AU-fCvtxpIcduEjZWbzdlT7g" />
+	
+	<!-- yayu home dev key -->
+	<!-- 
+	<com.google.android.maps.MapView
+		android:id="@+id/mapView" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:enabled="true"
+		 android:clickable="true" android:apiKey="0EaQQJj6ZFKmXwg1ap2DZ1WTQBtb-W6SnRwISFQ" /> -->
+</FrameLayout>

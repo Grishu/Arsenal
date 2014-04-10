@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LeadingMarginSpanActivity!</string>
+    <string name="app_name">MyLeadingMarginSpan2</string>
+    <string name="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat nunc id eros posuere sit amet malesuada lacus viverra. Phasellus vel orci nec est interdum facilisis.
+        Phasellus vel orci nec est interdum facilisis.
+        Phasellus vel orci nec est interdum facilisis.
+        Phasellus vel orci nec est interdum facilisis.
+        Phasellus vel orci nec est interdum facilisis.
+        Phasellus vel orci nec est interdum facilisis.
+        </string>
+</resources>
