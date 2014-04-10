@@ -7,6 +7,16 @@ should confirm that the effect is supported on this platform by calling isEffect
 
 ![SS1](http://1.bp.blogspot.com/-xF7fZd_gV54/Uvyl3IjSWtI/AAAAAAAAA1o/IzYMGqF96Vg/s1600/1.png)     ![SS2](http://1.bp.blogspot.com/-LZvHb6QL8i0/Uvyl36N-3ZI/AAAAAAAAA1w/Gu13vWVHR_I/s1600/3.png)
 
+![SS3](http://2.bp.blogspot.com/-Q2wc6bGsO10/Uvyl8pxzZEI/AAAAAAAAA2I/k2zSnYUOffc/s1600/5.png) 
+
+![SS4](http://3.bp.blogspot.com/-NMG5IGuyVcY/Uvyl87iozYI/AAAAAAAAA2M/JSesuvA7wUc/s1600/6.png) 
+![SS5](http://1.bp.blogspot.com/-8QSa8GN3Yxo/Uvyl9n2H9sI/AAAAAAAAA2Y/seYf_0v_DWg/s1600/7.png) 
+![SS6](http://4.bp.blogspot.com/-GmZIG7tHETM/UvymGfRrLqI/AAAAAAAAA2g/D4Rnx2IOmvs/s1600/8.png) 
+![SS7](http://2.bp.blogspot.com/-De8ZbldXLlg/UvymH1ZcYpI/AAAAAAAAA2o/cz5gflg-bPM/s1600/9.png) 
+![SS8](http://3.bp.blogspot.com/-PBMfHxhYBaU/UvymJQZDSFI/AAAAAAAAA2w/ARy6Pq4EEyQ/s1600/10.png) 
+ 
+
+
 
 License
 =======
