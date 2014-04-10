@@ -2,9 +2,9 @@
   operation or functionality. 
 
 
-    You can use a dialog box to ask the user to confirm an action, notify the user of an event, or prompt the user 
-    for additional information. Because dialog boxes disrupt the flow of the UI, you should use them only as a 
-    last resort. In most cases, you should integrate confirmation, feedback, and prompts directly into your app.
+  You can use a dialog box to ask the user to confirm an action, notify the user of an event, or prompt the user 
+  for additional information. Because dialog boxes disrupt the flow of the UI, you should use them only as a 
+  last resort. In most cases, you should integrate confirmation, feedback, and prompts directly into your app.
 
    Sometimes in our applications we want to alert the user for an event and/or ask user about taking a decision. 
    For this purpose AlertDialog class can be used, where a message and one, two or three buttons are displayed in
