@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">SignatureDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_signatures_save">Signatures</string>
+	<string name="clear">Clear</string>
+	<string name="submit">Submit</string>
+    
+</resources>
